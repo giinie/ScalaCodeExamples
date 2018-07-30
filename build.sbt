@@ -1,4 +1,4 @@
-name := "Programming Scala, Second Edition - Code examples"
+name := "ScalaCodeExamples"
 
 version := "2.1"
 
@@ -30,7 +30,7 @@ scalacOptions ++= Seq(
   "-language:experimental.macros")
 
 javacOptions  ++= Seq(
-  "-Xlint:unchecked", "-Xlint:deprecation") // Java 8: "-Xdiags:verbose")
+  "-Xlint:unchecked", "-Xlint:deprecation", "-Xdiags:verbose") // Java 8: "-Xdiags:verbose")
 
 // Enable improved incremental compilation feature in 2.11.X.
 // see http://www.scala-lang.org/news/2.11.1
